@@ -9,4 +9,18 @@
    border-width: 3px;
    background-color:rgb(52, 165, 202) ;
 }
+html, body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  min-height: 100vh;
+  overflow-x: hidden;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
 
+canvas {
+  max-width: 90vw;
+  height: auto !important;
+}
